@@ -19,11 +19,11 @@ const parcels = [
 
 //Creating a parcel delivery order
 app.post('/api/v1/parcels', (req, res) => {
-	let id = parcels.length+1;
+	let 	id = parcels.length+1;
 	let	owner = req.body.owner;
 	let	pickup = req.body.pickup;
 	let	destination = req.body.destination;
-	let weight = req.body.weight;
+	let	weight = req.body.weight;
 	let	price = parseFloat(weight)*1200;
 	const parcelOrders={
 		id,
