@@ -14,3 +14,5 @@ ENDPOINTS
 `PUT /parcels/<parcelId>/cancel`:Cancel the specific parcel delivery order
 
 `POST /parcels`:Create a parcel delivery order
+
+[![Build Status](https://travis-ci.org/Aphrodis/Andela-Developer-Challenge-SendIT.svg?branch=master)](https://travis-ci.org/Aphrodis/Andela-Developer-Challenge-SendIT)
