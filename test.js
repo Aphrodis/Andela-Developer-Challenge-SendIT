@@ -36,7 +36,6 @@ describe('/POST parcel',()=>{
 			done();
 	});
 });
-
 describe("/PUT parcels/cancel",()=>{
 	it("The user with the identified id should be deleted",(done)=>{
 		let id ="5";
