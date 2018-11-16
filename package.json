@@ -4,7 +4,7 @@
   "description": "",
   "main": "deliveries.js",
   "scripts": {
-    "start":"node deliveries.js",
+    "start": "node deliveries.js",
     "test": "mocha --exit"
   },
   "repository": {
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Aphrodis/SendIT-Andela-Developer-Challenge-2-APIs-#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
     "express": "^4.16.4"
   }
 }
